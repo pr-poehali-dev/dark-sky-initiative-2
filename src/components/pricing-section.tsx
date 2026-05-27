@@ -8,15 +8,15 @@ export function PricingSection() {
   const pricingPlans = [
     {
       name: "Старт",
-      monthlyPrice: "0 ₽",
-      annualPrice: "0 ₽",
-      description: "Для начинающих разработчиков.",
+      monthlyPrice: "4 900 ₽",
+      annualPrice: "3 900 ₽",
+      description: "Для малого бизнеса и тестирования.",
       features: [
-        "Подсказки кода в реальном времени",
-        "Базовые интеграции",
-        "Одно MCP-подключение",
-        "До 2 ИИ-агентов",
-        "Деплой с брендингом NeuralCode",
+        "До 500 лидов в базе",
+        "1 канал: Telegram или WhatsApp",
+        "Подключение Google Таблицы",
+        "До 3 сценариев прогрева",
+        "Уведомления о горячих лидах",
       ],
       buttonText: "Начать",
       buttonClass:
@@ -24,16 +24,16 @@ export function PricingSection() {
     },
     {
       name: "Про",
-      monthlyPrice: "1 990 ₽",
-      annualPrice: "1 590 ₽",
-      description: "Для профессионалов.",
+      monthlyPrice: "14 900 ₽",
+      annualPrice: "11 900 ₽",
+      description: "Для активных отделов продаж.",
       features: [
-        "Расширенные превью в реальном времени",
-        "Безлимитные интеграции",
-        "Несколько MCP-подключений",
-        "До 10 ИИ-агентов одновременно",
-        "Командный чат и совместная работа",
-        "Продвинутая интеграция с Git",
+        "До 5 000 лидов в базе",
+        "Telegram + WhatsApp + Email",
+        "AmoCRM и Bitrix24",
+        "Безлимит сценариев прогрева",
+        "ИИ-квалификация лидов",
+        "Аналитика и отчёты",
         "Приоритетная поддержка",
       ],
       buttonText: "Подключить",
@@ -43,15 +43,15 @@ export function PricingSection() {
     },
     {
       name: "Бизнес",
-      monthlyPrice: "19 900 ₽",
-      annualPrice: "15 900 ₽",
-      description: "Решения для команд.",
+      monthlyPrice: "49 900 ₽",
+      annualPrice: "39 900 ₽",
+      description: "Для крупных баз и корпораций.",
       features: [
+        "Безлимит лидов",
+        "Все каналы + кастомные",
+        "Любые CRM по API",
         "Персональный менеджер",
-        "Безлимитные MCP-кластеры",
-        "Безлимитные ИИ-агенты",
-        "Корпоративная безопасность",
-        "Приоритетный деплой и SLA",
+        "Индивидуальные сценарии",
       ],
       buttonText: "Связаться",
       buttonClass:
@@ -64,10 +64,10 @@ export function PricingSection() {
       <div className="self-stretch relative flex flex-col justify-center items-center gap-2 py-0">
         <div className="flex flex-col justify-start items-center gap-4">
           <h2 className="text-center text-foreground text-4xl md:text-5xl font-semibold leading-tight md:leading-[40px]">
-            Тарифы для каждого
+            Тарифы под любую базу
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm font-medium leading-tight">
-            Выберите план под ваш стиль работы: от начинающих разработчиков <br /> до растущих команд и крупных организаций.
+            Выберите план под размер вашей базы — от первых тестов <br /> до промышленной реактивации тысяч лидов.
           </p>
         </div>
         <div className="pt-4">
@@ -174,7 +174,7 @@ export function PricingSection() {
               <div
                 className={`self-stretch text-sm font-medium leading-tight ${plan.popular ? "text-primary-foreground/70" : "text-muted-foreground"}`}
               >
-                {plan.name === "Старт" ? "Начните сегодня:" : "Всё из Старт плюс:"}
+                {plan.name === "Старт" ? "Включено:" : plan.name === "Про" ? "Всё из Старт, плюс:" : "Всё из Про, плюс:"}
               </div>
               <div className="self-stretch flex flex-col justify-start items-start gap-3">
                 {plan.features.map((feature) => (

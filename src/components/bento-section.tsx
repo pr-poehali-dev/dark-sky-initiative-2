@@ -42,33 +42,33 @@ const BentoCard = ({ title, description, Component }: BentoCardProps) => (
 export function BentoSection() {
   const cards = [
     {
-      title: "ИИ-ревью кода.",
-      description: "Умные подсказки для чистого кода в реальном времени.",
+      title: "Умный анализ базы.",
+      description: "ИИ сам находит «холодных» лидов и определяет лучший момент для касания.",
       Component: AiCodeReviews,
     },
     {
-      title: "Превью в реальном времени",
-      description: "Общайтесь, работайте вместе и сразу видьте изменения.",
+      title: "Персональные сообщения",
+      description: "Пишет каждому лично — без шаблонных рассылок, которые игнорируют.",
       Component: RealtimeCodingPreviews,
     },
     {
-      title: "Интеграции в один клик",
-      description: "Легко подключайте любимые инструменты разработки.",
+      title: "Подключение за 5 минут",
+      description: "Telegram, WhatsApp, AmoCRM, Bitrix24, Google Таблицы — без программистов.",
       Component: OneClickIntegrationsIllustration,
     },
     {
-      title: "Гибкое MCP-подключение",
-      description: "Простое управление доступом к MCP-серверам.",
+      title: "Многоканальный охват",
+      description: "Пишет там, где удобно клиенту: в мессенджере, CRM или по почте.",
       Component: MCPConnectivityIllustration,
     },
     {
-      title: "Параллельные ИИ-агенты",
-      description: "Решайте сложные задачи быстрее с несколькими агентами.",
+      title: "Параллельная работа",
+      description: "Одновременно ведёт сотни диалогов и не теряет ни одного лида.",
       Component: ParallelCodingAgents,
     },
     {
-      title: "Простой деплой",
-      description: "От кода до продакшена за считанные минуты.",
+      title: "Передача менеджеру",
+      description: "Когда лид готов — ИИ уведомляет и передаёт горячий контакт команде.",
       Component: EasyDeployment,
     },
   ]
@@ -80,10 +80,10 @@ export function BentoSection() {
         <div className="self-stretch py-8 md:py-14 flex flex-col justify-center items-center gap-2 z-10">
           <div className="flex flex-col justify-start items-center gap-4">
             <h2 className="w-full max-w-[655px] text-center text-foreground text-4xl md:text-6xl font-semibold leading-tight md:leading-[66px]">
-              Усильте рабочий процесс с ИИ
+              Как работает реактивация
             </h2>
             <p className="w-full max-w-[600px] text-center text-muted-foreground text-lg md:text-xl font-medium leading-relaxed">
-              Попросите ИИ-агента помочь с совместной работой, интеграциями и аналитикой для оптимизации процессов.
+              ИИ-агент берёт вашу базу, сам пишет лидам и доводит их до сделки — вы только получаете горячие заявки.
             </p>
           </div>
         </div>

@@ -1,57 +1,57 @@
 const testimonials = [
   {
     quote:
-      "Подсказки NeuralCode в реальном времени - это как иметь сеньор-разработчика, который проверяет каждую строку кода. Точность рекомендаций повысила качество кода и сократила время на ревью.",
+      "Подключили базу из 2400 лидов, которые не отвечали больше года. За месяц ИИ реактивировал 89 из них — 23 дошли до оплаты. ROI x14 уже в первый месяц.",
     name: "Анна Петрова",
-    company: "TechFlow Solutions",
+    company: "Маркетинговое агентство Petra",
     avatar: "/images/avatars/annette-black.png",
     type: "large-teal",
   },
   {
     quote:
-      "Интеграция NeuralCode прошла гладко, а MCP-подключения сэкономили нам дни работы над конфигурацией.",
+      "Подключение к AmoCRM заняло 10 минут. ИИ сразу начал писать старым лидам — без участия моих менеджеров.",
     name: "Елена Смирнова",
-    company: "Quantum Dynamics",
+    company: "Школа иностранных языков",
     avatar: "/images/avatars/dianne-russell.png",
     type: "small-dark",
   },
   {
     quote:
-      "Мульти-агентная функция NeuralCode изменила всё. Теперь мы исправляем сложные баги за часы, а не за целые спринты.",
+      "Думал, база мёртвая. Оказалось, люди просто ждали правильного момента. ИИ его нашёл за нас.",
     name: "Максим Волков",
-    company: "Alpine Ventures",
+    company: "Фитнес-клуб FitPro",
     avatar: "/images/avatars/cameron-williamson.png",
     type: "small-dark",
   },
   {
     quote:
-      "Больше никакого жонглирования инструментами. NeuralCode объединил все интеграции в одном месте и упростил весь рабочий процесс.",
+      "Раньше менеджеры тратили 3 часа в день на «реанимацию» отказников. Теперь это делает ИИ, а они занимаются горячими клиентами.",
     name: "Дмитрий Козлов",
-    company: "Stellar Analytics",
+    company: "Недвижимость Столица",
     avatar: "/images/avatars/robert-fox.png",
     type: "small-dark",
   },
   {
     quote:
-      "Мы начали с бесплатного плана, но через неделю перешли на Про. Теперь не представляем работу без него.",
+      "Начали с Google Таблицы и тестового периода. Уже на 3-й день первая оплата — перешли на Про в тот же вечер.",
     name: "Ольга Новикова",
-    company: "Nova Industries",
+    company: "Онлайн-курсы SkillUp",
     avatar: "/images/avatars/darlene-robertson.png",
     type: "small-dark",
   },
   {
     quote:
-      "Совместная работа стала лёгкой. С превью NeuralCode в реальном времени парное программирование стало быстрее и продуктивнее.",
+      "ИИ пишет так естественно, что клиенты не догадываются. Несколько человек даже поблагодарили за «личное внимание».",
     name: "Игорь Соколов",
-    company: "CloudBridge Tech",
+    company: "Страховой брокер Надёжность",
     avatar: "/images/avatars/cody-fisher.png",
     type: "small-dark",
   },
   {
     quote:
-      "Деплой с NeuralCode - это не просто, это бесшовно. От кода до продакшена за минуты без головной боли с пайплайнами.",
+      "У нас 8000 лидов в Bitrix24, которые зависли на разных этапах. LeadRevive AI обрабатывает их непрерывно — конверсия выросла на 31% за квартал.",
     name: "Мария Федорова",
-    company: "Nexus Software",
+    company: "IT-интегратор Nexus",
     avatar: "/images/avatars/albert-flores.png",
     type: "large-light",
   },
@@ -139,11 +139,11 @@ export function TestimonialGridSection() {
       <div className="self-stretch py-6 md:py-8 lg:py-14 flex flex-col justify-center items-center gap-2">
         <div className="flex flex-col justify-start items-center gap-4">
           <h2 className="text-center text-foreground text-3xl md:text-4xl lg:text-[40px] font-semibold leading-tight md:leading-tight lg:leading-[40px]">
-            Разработка без усилий
+            Реальные результаты клиентов
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm md:text-sm lg:text-base font-medium leading-[18.20px] md:leading-relaxed lg:leading-relaxed">
-            {"Узнайте, как разработчики быстрее выпускают продукты, работают слаженно"} <br />{" "}
-            {"и создают код уверенно с помощью мощных ИИ-инструментов NeuralCode"}
+            {"Компании из разных ниш уже возвращают деньги из мёртвой базы"} <br />{" "}
+            {"— без найма новых менеджеров и дополнительных рекламных бюджетов"}
           </p>
         </div>
       </div>
